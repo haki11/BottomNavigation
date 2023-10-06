@@ -63,7 +63,7 @@ public class SecondFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_second, container, false);
-        editText = view.findViewById(R.id.editTextText);
+        editText = view.findViewById(R.id.editText);
         return view;
     }
 
